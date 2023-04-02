@@ -5,7 +5,7 @@ function ImageDisplay() {
     let [images, setImages] = useState<string[]>([]);
 
     useEffect(() => {
-        fetch("http://elandave-001-site1.dtempurl.com/api/MelyPhotos/GetImages")
+        fetch("https://elandave-001-site1.dtempurl.com/api/MelyPhotos/GetImages")
         .then(response => response.json())
         .then(data => {
             const updatedUrls:string[] = [];
