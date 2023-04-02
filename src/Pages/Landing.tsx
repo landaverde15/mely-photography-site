@@ -14,6 +14,9 @@ function Landing() {
                     <h1 className="nameTitle">Mely Hernandez &#x2661;</h1>
                 </div>
                 <div className="flexItem">
+                    <h2 className="landingText2">Photographer / Canon T6 / Photoshop / Lightroom </h2>
+                </div>
+                <div className="flexItem">
                     <h3 className="landingText">See my life through my lens</h3>
                 </div>
                 <img className="arrow" src={downArrow} />
