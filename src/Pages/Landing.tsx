@@ -19,7 +19,9 @@ function Landing() {
                 <div className="flexItem">
                     <h3 className="landingText">See my life through my lens</h3>
                 </div>
-                <img className="arrow" src={downArrow} />
+                <div className="flexItemArrowDiv">
+                    <img className="arrow" src={downArrow} />
+                </div>
             </div>
         </div>
     );
