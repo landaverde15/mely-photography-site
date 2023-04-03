@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100%;
 }
 .flexRow {
   display: flex;
@@ -39,14 +40,16 @@
   50% {bottom: 20px;}
   100% {bottom: 0;}
 }
+.flexItemArrowDiv {
+  align-self: center;
+  margin-top: auto;
+}
 .arrow {
   animation: bouncing 1s infinite ease-in-out;
   bottom: 0;
   display: block;
   height: 90px;
-  left: 50%;
-  margin-left: -25px;
-  position: absolute;
+  position: relative;
   width: 90px;
 }
 
