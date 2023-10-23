@@ -9,7 +9,7 @@ function ImageDisplay() {
         .then(response => response.json())
         .then(data => {
             const byteStrings:string[] = [];
-            data.photos.forEach((image:any, index:number) => {
+            data.photos.slice().reverse().forEach((image:any, index:number) => {
                 byteStrings.push(image.photo);
             });
             setImages(byteStrings);});
