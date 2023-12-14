@@ -13,9 +13,14 @@
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 90vw;
+  min-height: 100vh;
   padding-left: 5vw;
   padding-right: 5vw;
   align-items: center;
+}
+.HashLoaderDiv {
+  margin: 0px auto;
+
 }
 /* ----------------------- */
 /* Landing Page styling */
